@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fullyshiphome-dev-212610-authRole",
+      "UnauthRoleArn": "arn:aws:iam::249164115056:role/amplify-fullyshiphome-dev-212610-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::249164115056:role/amplify-fullyshiphome-dev-212610-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-fullyshiphome-dev-212610-deployment",
+      "UnauthRoleName": "amplify-fullyshiphome-dev-212610-unauthRole",
+      "StackName": "amplify-fullyshiphome-dev-212610",
+      "StackId": "arn:aws:cloudformation:us-east-1:249164115056:stack/amplify-fullyshiphome-dev-212610/f924ab80-914e-11ed-b427-0ad4184b227d",
+      "AmplifyAppId": "d3qqkhhrq9u8k"
+    },
+    "categories": {
+      "auth": {
+        "fullyshiphomea94b1949": {}
+      }
+    }
+  }
+}
