@@ -1,0 +1,59 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fullyshiphome-dev-212610-authRole",
+      "UnauthRoleArn": "arn:aws:iam::249164115056:role/amplify-fullyshiphome-dev-212610-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::249164115056:role/amplify-fullyshiphome-dev-212610-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-fullyshiphome-dev-212610-deployment",
+      "UnauthRoleName": "amplify-fullyshiphome-dev-212610-unauthRole",
+      "StackName": "amplify-fullyshiphome-dev-212610",
+      "StackId": "arn:aws:cloudformation:us-east-1:249164115056:stack/amplify-fullyshiphome-dev-212610/f924ab80-914e-11ed-b427-0ad4184b227d",
+      "AmplifyAppId": "d3qqkhhrq9u8k"
+    }
+  },
+  "auth": {
+    "fullyshiphomea94b1949": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL",
+          "PHONE_NUMBER"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-fullyshiphome-dev-212610-deployment/amplify-cfn-templates/auth/fullyshiphomea94b1949-cloudformation-template.json",
+        "logicalId": "authfullyshiphomea94b1949"
+      },
+      "lastPushTimeStamp": "2023-01-11T01:40:31.041Z",
+      "output": {
+        "UserPoolId": "us-east-1_kOKnF6KS4",
+        "AppClientIDWeb": "ie8v0762gr8t4ns9fj5nkgie9",
+        "AppClientID": "1h38l08tlc99rbnm7rpaq65sq",
+        "IdentityPoolId": "us-east-1:b5463a59-8bf1-46b5-9607-bfeca2e8c5cd",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:249164115056:userpool/us-east-1_kOKnF6KS4",
+        "IdentityPoolName": "fullyshiphomea94b1949_identitypool_a94b1949__dev",
+        "UserPoolName": "fullyshiphomea94b1949_userpool_a94b1949"
+      },
+      "lastPushDirHash": "BVNRc180WTz0jqAjVnp4a4SXtS8="
+    }
+  }
+}
